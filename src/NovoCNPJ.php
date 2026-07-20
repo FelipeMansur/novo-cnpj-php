@@ -27,7 +27,7 @@ class NovoCNPJ
         } else {
             $base_abc = 17;
             $a_ascii = ord("A");
-            $caractere_ascii = ord($caractere); //esta funcao obter o valor na tabela ASCII do caractere
+            $caractere_ascii = ord($caractere); //esta funcao obtem o valor na tabela ASCII do caractere
             return $caractere > "A" ? $base_abc + ($caractere_ascii - $a_ascii) : $base_abc;
         }
     }
